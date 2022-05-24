@@ -1,0 +1,10 @@
+.helloWorld {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: white;
+  width: 400px;
+  height: 400px;
+  justify-self: center;
+}

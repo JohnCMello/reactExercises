@@ -1,0 +1,15 @@
+.nav {
+	display: flex;
+	justify-content: center;
+	position: sticky;
+}
+
+.nav_list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.nav_link {
+	margin: 0 5px;
+}
