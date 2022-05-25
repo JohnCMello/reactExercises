@@ -3,6 +3,8 @@ import JokeCard from './JokeCard.jsx'
 
 import jokes from './jokes.json'
 
+import './index.css'
+
 function Exercicio8() {
 	return (
 		<>

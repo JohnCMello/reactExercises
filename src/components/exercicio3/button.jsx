@@ -4,7 +4,12 @@ const Button = (props) => {
   };
   return (
     <>
-      <button onClick={handleClick}>{props.children}</button>
+      <button
+        className={props.className}
+        onClick={handleClick}
+      >
+        {props.children}
+      </button>
     </>
   );
 };

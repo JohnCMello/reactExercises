@@ -1,11 +1,13 @@
 import Button from './button';
 
+import './index.css';
+
 function Exercicio3() {
 	return (
 		<>
-			<Button>Button 1</Button>
-			<Button>Button 2</Button>
-			<Button>Button 3</Button>
+			<Button className='button'>Button 1</Button>
+			<Button className='button'>Button 2</Button>
+			<Button className='button'>Button 3</Button>
 		</>
 	);
 };

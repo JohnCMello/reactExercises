@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import './index.css'
+
 function Exercicio4() {
 	const [clickCounter, setClickCounter] = useState(0);
 

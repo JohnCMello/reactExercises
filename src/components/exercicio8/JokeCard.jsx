@@ -5,8 +5,14 @@ const JokeCard = (props) => {
   return (
     <>
       <li className='jokeCard'>
-        <h2 className='jokeCard__heading'>{setup}</h2>
-        <p className='jokeCard__paragraph' >{punchline}</p>
+        <div className='jokeCard__container'>
+          <div className='jokeCard--front'>
+            <h2 className='jokeCard__heading'>{setup}</h2>
+          </div>
+          <div className="jokeCard--back">
+            <p className='jokeCard__paragraph' >{punchline}</p>
+          </div>
+        </div>
       </li>
     </>
   );
