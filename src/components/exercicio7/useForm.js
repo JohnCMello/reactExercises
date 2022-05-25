@@ -8,7 +8,8 @@ const INITIAL_VALUES = {
 export const useForm = () => {
   const [userData, setUserData] = useState(INITIAL_VALUES)
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault()
     const { firstName, lastName } = userData
 
     if (!firstName || !lastName) return
